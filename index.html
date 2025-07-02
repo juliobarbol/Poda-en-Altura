@@ -140,8 +140,9 @@
             color: #1f2937;
             margin-bottom: 0.5rem; /* Espacio antes de los botones */
         }
-        .qr-code-container {
-            margin-top: 1.5rem; /* Más espacio */
+        /* La sección .qr-code-container y sus estilos ya no son necesarios si se elimina el div */
+        /* .qr-code-container {
+            margin-top: 1.5rem;
             margin-bottom: 1.5rem;
             display: flex;
             justify-content: center;
@@ -149,18 +150,18 @@
             flex-direction: column;
         }
         .qr-code-container img {
-            width: 90px; /* QR un poco más grande */
+            width: 90px;
             height: 90px;
-            border: 2px solid #e2e8f0; /* Borde más visible */
-            border-radius: 8px; /* Bordes redondeados para el QR */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Sombra sutil para el QR */
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
         }
         .qr-code-container p {
             font-size: 0.85rem;
             color: #64748b;
             margin-top: 0.6rem;
             font-weight: 500;
-        }
+        } */
 
         /* Responsive adjustments for smaller screens if needed, though A6 is small */
         @media (max-width: 480px) {
@@ -187,10 +188,10 @@
                 padding: 0.7rem 1.5rem;
                 font-size: 1rem;
             }
-            .qr-code-container img {
+            /* .qr-code-container img {
                 width: 75px;
                 height: 75px;
-            }
+            } */
         }
 
         /* Print styles */
@@ -221,7 +222,7 @@
             <p class="subheader">• Seguridad • Evaluación responsable</p>
         </div>
 
-        <!-- Evaluation Section (updated text) -->
+        <!-- Evaluation Section -->
         <div class="star-evaluation">
             <span class="icon">⭐</span> Evaluación de riesgo y salud del árbol
         </div>
@@ -242,16 +243,13 @@
             </div>
         </div>
 
-        <!-- QR Code Section -->
+        <!-- QR Code Section - ESTE ES EL BLOQUE QUE DEBES ELIMINAR -->
+        <!--
         <div class="qr-code-container">
-            <!--
-                La imagen del QR ha sido actualizada para usar 'FOLLETO PODA.png'.
-                Asegúrate de que este archivo PNG esté en la misma carpeta raíz
-                de tu repositorio de GitHub Pages.
-            -->
             <img src="FOLLETO PODA.png" alt="Escanea para ver el folleto completo">
             <p>Escanea para ver el folleto en tu teléfono</p>
         </div>
+        -->
 
         <!-- Contact Information -->
         <div class="contact-info mt-auto">
